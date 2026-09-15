@@ -1,32 +1,19 @@
 # Withdata Homebrew Tap
 
-Homebrew tap for installing [BigTextFileViewer](https://www.withdata.com/big-text-file-viewer/) on macOS.
+Homebrew tap for installing [Withdata Software](https://www.withdata.com/) apps on macOS.
 
 ## Install
 
 ```bash
 brew tap withdataio/tap
 brew trust withdataio/tap          # Homebrew 5.0+: trust third-party cask taps
+```
+
+Then install any app by its cask name:
+
+```bash
 brew install --cask big-text-file-viewer
-```
-
-## Update
-
-```bash
-brew upgrade --cask big-text-file-viewer
-```
-
-## Uninstall
-
-```bash
-brew uninstall --cask big-text-file-viewer
-brew untap withdataio/tap
-```
-
-Remove remaining preferences/config (optional):
-
-```bash
-brew uninstall --cask --zap big-text-file-viewer
+brew install --cask big-text-file-splitter
 ```
 
 ## Available casks
@@ -35,11 +22,21 @@ brew uninstall --cask --zap big-text-file-viewer
 |---|---|
 | `big-text-file-viewer` | BigTextFileViewer |
 
-## For maintainers
-
-After building and uploading a new `.pkg`, update the cask with the
-`scripts/update_cask.sh` script from the BigTextFileViewer project:
+## Update
 
 ```bash
-./scripts/update_cask.sh 3.1 3
+brew upgrade --cask <cask-name>
+```
+
+## Uninstall
+
+```bash
+brew uninstall --cask <cask-name>
+brew untap withdataio/tap
+```
+
+Remove remaining preferences/config (optional):
+
+```bash
+brew uninstall --cask --zap <cask-name>
 ```
