@@ -20,7 +20,26 @@ brew install --cask big-text-file-splitter
 
 | Cask | App |
 |---|---|
+| `big-text-file-splitter` | BigTextFileSplitter |
 | `big-text-file-viewer` | BigTextFileViewer |
+| `data-file-converter` | DataFileConverter |
+| `data-file-splitter` | DataFileSplitter |
+| `db-blob-editor` | DBBlobEditor |
+| `db-copier` | DBCopier |
+| `db-loader` | DBLoader |
+| `db-to-file` | DBToFile |
+| `db-to-mongo` | DBToMongo |
+| `excel-data-transformer` | ExcelDataTransformer |
+| `file-to-db` | FileToDB |
+| `file-to-mongo` | FileToMongo |
+| `mongo-loader` | MongoLoader |
+| `mongo-to-db` | MongoToDB |
+| `mongo-to-file` | MongoToFile |
+| `redis-data-studio` | RedisDataStudio |
+| `sql-dump-splitter` | SQLDumpSplitter |
+| `subtitle-converter` | SubtitleConverter |
+| `tail4win` | Tail4win |
+| `text-merger` | TextMerger |
 
 ## Update
 
