@@ -12,6 +12,8 @@ cask "tail4win" do
     regex(/Tail4win version\s+(\d+(?:\.\d+)+)/i)
   end
 
+  depends_on :macos
+
   pkg "Tail4win-#{version}.pkg"
 
   uninstall pkgutil: "com.withdata.Tail4win"

@@ -12,6 +12,8 @@ cask "sql-dump-splitter" do
     regex(/SQLDumpSplitter version\s+(\d+(?:\.\d+)+)/i)
   end
 
+  depends_on :macos
+
   pkg "SQLDumpSplitter-#{version}.pkg"
 
   uninstall pkgutil: "com.withdata.SQLDumpSplitter"

@@ -12,6 +12,8 @@ cask "file-to-mongo" do
     regex(/FileToMongo version\s+(\d+(?:\.\d+)+)/i)
   end
 
+  depends_on :macos
+
   pkg "FileToMongo-#{version}.pkg"
 
   uninstall pkgutil: "com.withdata.FileToMongo"

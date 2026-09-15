@@ -12,6 +12,8 @@ cask "mongo-loader" do
     regex(/MongoLoader version\s+(\d+(?:\.\d+)+)/i)
   end
 
+  depends_on :macos
+
   pkg "MongoLoader-#{version}.pkg"
 
   uninstall pkgutil: "com.withdata.MongoLoader"

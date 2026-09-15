@@ -12,6 +12,8 @@ cask "big-text-file-viewer" do
     regex(/BigTextFileViewer version\s+(\d+(?:\.\d+)+)/i)
   end
 
+  depends_on :macos
+
   pkg "BigTextFileViewer-#{version}.pkg"
 
   uninstall pkgutil: "com.withdata.BigTextFileViewer"

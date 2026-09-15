@@ -12,6 +12,8 @@ cask "data-file-converter" do
     regex(/DataFileConverter version\s+(\d+(?:\.\d+)+)/i)
   end
 
+  depends_on :macos
+
   pkg "DataFileConverter-#{version}.pkg"
 
   uninstall pkgutil: "com.withdata.DataFileConverter"

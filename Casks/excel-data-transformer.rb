@@ -12,6 +12,8 @@ cask "excel-data-transformer" do
     regex(/ExcelDataTransformer version\s+(\d+(?:\.\d+)+)/i)
   end
 
+  depends_on :macos
+
   pkg "ExcelDataTransformer-#{version}.pkg"
 
   uninstall pkgutil: "com.withdata.ExcelDataTransformer"

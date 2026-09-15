@@ -12,6 +12,8 @@ cask "big-text-file-splitter" do
     regex(/BigTextFileSplitter version\s+(\d+(?:\.\d+)+)/i)
   end
 
+  depends_on :macos
+
   pkg "BigTextFileSplitter-#{version}.pkg"
 
   uninstall pkgutil: "com.withdata.BigTextFileSplitter"

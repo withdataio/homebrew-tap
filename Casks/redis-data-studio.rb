@@ -12,6 +12,8 @@ cask "redis-data-studio" do
     regex(/RedisDataStudio version\s+(\d+(?:\.\d+)+)/i)
   end
 
+  depends_on :macos
+
   pkg "RedisDataStudio-#{version}.pkg"
 
   uninstall pkgutil: "com.withdata.RedisDataStudio"

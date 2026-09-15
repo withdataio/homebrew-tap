@@ -12,6 +12,8 @@ cask "db-to-file" do
     regex(/DBToFile version\s+(\d+(?:\.\d+)+)/i)
   end
 
+  depends_on :macos
+
   pkg "DBToFile-#{version}.pkg"
 
   uninstall pkgutil: "com.withdata.DBToFile"

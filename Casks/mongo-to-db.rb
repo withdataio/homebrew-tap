@@ -12,6 +12,8 @@ cask "mongo-to-db" do
     regex(/MongoToDB version\s+(\d+(?:\.\d+)+)/i)
   end
 
+  depends_on :macos
+
   pkg "MongoToDB-#{version}.pkg"
 
   uninstall pkgutil: "com.withdata.MongoToDB"

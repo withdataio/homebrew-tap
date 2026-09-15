@@ -12,6 +12,8 @@ cask "db-copier" do
     regex(/DBCopier version\s+(\d+(?:\.\d+)+)/i)
   end
 
+  depends_on :macos
+
   pkg "DBCopier-#{version}.pkg"
 
   uninstall pkgutil: "com.withdata.DBCopier"

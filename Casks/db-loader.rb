@@ -12,6 +12,8 @@ cask "db-loader" do
     regex(/DBLoader version\s+(\d+(?:\.\d+)+)/i)
   end
 
+  depends_on :macos
+
   pkg "DBLoader-#{version}.pkg"
 
   uninstall pkgutil: "com.withdata.DBLoader"
