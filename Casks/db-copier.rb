@@ -1,6 +1,6 @@
 cask "db-copier" do
-  version "3.0.1"
-  sha256 "371ffce3128ce5d975c9d9f0c90a904380e360b7ba1d9eed508c9e94860afaa6"
+  version "3.0.2"
+  sha256 "798b5ae81074552ada28429f6de9c3800e436198e871e80b25b2327f5fdbc283"
 
   url "https://www.withdata.com/down/DBCopier-#{version}.pkg"
   name "DBCopier"
