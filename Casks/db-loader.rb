@@ -1,6 +1,6 @@
 cask "db-loader" do
-  version "3.6.2"
-  sha256 "7f2b9eb5ae45e31ed996bcebbd742d934365d4c55bc2d5e701878adfc7d657ef"
+  version "3.6.3"
+  sha256 "7d027ebd854af272ea1c210b7078e7517fe7b63d204f50bb7d4af1ff00693267"
 
   url "https://www.withdata.com/down/DBLoader-#{version}.pkg"
   name "DBLoader"
