@@ -1,6 +1,6 @@
 cask "mongo-loader" do
-  version "2.8.1"
-  sha256 "0e9572574d459753aba77a1391f836e0dd0cb91180e8ca34166f81fdc0c80c0e"
+  version "2.9.1"
+  sha256 "6878e1b6579b2f595d7e95b5de0ff783ff73523c4706989454f93fba34dd2478"
 
   url "https://www.withdata.com/down/MongoLoader-#{version}.pkg"
   name "MongoLoader"
