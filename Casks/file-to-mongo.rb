@@ -1,6 +1,6 @@
 cask "file-to-mongo" do
   version "5.1.2"
-  sha256 "ddc477d4b623aafe5341c848a5674c566c67e196d518e889d7606cb0225f4ae7"
+  sha256 "fff91f15f0338a9bd1a150ae86a7f3d9e3f8b31090bd477fb7f8de71c283d73e"
 
   url "https://www.withdata.com/down/FileToMongo-#{version}.pkg"
   name "FileToMongo"
