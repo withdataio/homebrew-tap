@@ -1,6 +1,6 @@
 cask "file-to-db" do
-  version "3.6.1"
-  sha256 "95d44e49fb65f7ccdf5a21c86e676e93ed52225b9ea621d639393907c1dc573e"
+  version "3.6.2"
+  sha256 "e0c1506c7f2cdc4cde36ecca229851d65aea9bc5734fd08825c95a16d87e500a"
 
   url "https://www.withdata.com/down/FileToDB-#{version}.pkg"
   name "FileToDB"
