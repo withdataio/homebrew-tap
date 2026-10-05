@@ -1,6 +1,6 @@
 cask "db-to-file" do
   version "3.0.3"
-  sha256 "7dde25cb49212713655805ea875c4f0cdb401af0d269cc28f67b777339e550f7"
+  sha256 "77d59c3c542deadd5a335ed69fe993c187895045d8ca6e4e3e787e00e6895f04"
 
   url "https://www.withdata.com/down/DBToFile-#{version}.pkg"
   name "DBToFile"
