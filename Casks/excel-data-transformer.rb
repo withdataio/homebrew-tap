@@ -1,6 +1,6 @@
 cask "excel-data-transformer" do
-  version "2.0.2"
-  sha256 "052742284d5e4b93b3472ad5085aa8653063f463c37d6f89bdbbfc43e6210cc4"
+  version "2.1.1"
+  sha256 "d09ac7359799b218ea9f1e82314424044794eb4f89b0aa52704d32a6df7ae4d9"
 
   url "https://www.withdata.com/down/ExcelDataTransformer-#{version}.pkg"
   name "ExcelDataTransformer"
