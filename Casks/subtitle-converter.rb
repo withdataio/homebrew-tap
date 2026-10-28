@@ -1,6 +1,6 @@
 cask "subtitle-converter" do
-  version "1.0.2"
-  sha256 "2999f402626b55f9f39eca684dc54c9986e32d25d1ca775f957f93a381e18860"
+  version "1.1.1"
+  sha256 "85ec885030402be9f65ef2c20d71e8308d1f89bec7d5c80d35bea906439f4b81"
 
   url "https://www.withdata.com/down/SubtitleConverter-#{version}.pkg"
   name "SubtitleConverter"
