@@ -1,6 +1,6 @@
 cask "data-file-converter" do
-  version "6.5.4"
-  sha256 "3a54b6f3b5e38a4be116d462d6a788fbd8fa4f511649420187b8b2bfbf073552"
+  version "6.6.1"
+  sha256 "f5a2498b4dac2b48b84dafb367ed8fea3371872fd8771af5f34a12a12d58690a"
 
   url "https://www.withdata.com/down/DataFileConverter-#{version}.pkg"
   name "DataFileConverter"
