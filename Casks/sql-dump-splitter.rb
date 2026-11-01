@@ -1,6 +1,6 @@
 cask "sql-dump-splitter" do
-  version "1.4.1"
-  sha256 "e4b38ae21d2a8d034ce0daff5f24dfc98a11c6aafe6d11d6bec1f932fdf359f8"
+  version "1.5.1"
+  sha256 "bc698c1a032b7ea710dc040b23c38ab5b6d91807bf4b39dbf74be62247dc7d62"
 
   url "https://www.withdata.com/down/SQLDumpSplitter-#{version}.pkg"
   name "SQLDumpSplitter"
