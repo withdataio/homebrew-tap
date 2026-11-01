@@ -1,6 +1,6 @@
 cask "big-text-file-splitter" do
-  version "4.3.1"
-  sha256 "f24bb16ebfd2fc04f0bf39c7b2307f140f37e25345d521932c2f9a96476162db"
+  version "4.4.1"
+  sha256 "f456cb00930eeed2b1bf2644f9ff23d504bbebe895e276fd46573568ca87f5ae"
 
   url "https://www.withdata.com/down/BigTextFileSplitter-#{version}.pkg"
   name "BigTextFileSplitter"
