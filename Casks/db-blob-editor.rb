@@ -1,6 +1,6 @@
 cask "db-blob-editor" do
-  version "8.5.1"
-  sha256 "5031935bce223fabad126b2c14da6dba3110ff73cdb4da2037a9b7d1ef7067b1"
+  version "8.6.1"
+  sha256 "a7f4ec287c73395b55567d73305565ad869a8db6d079af0e937774c93948ad87"
 
   url "https://www.withdata.com/down/DBBlobEditor-#{version}.pkg"
   name "DBBlobEditor"
