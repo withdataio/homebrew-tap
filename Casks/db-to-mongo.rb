@@ -1,6 +1,6 @@
 cask "db-to-mongo" do
-  version "3.0.1"
-  sha256 "eae173a5bd59277fd9eaeec24cf38259f370ccefc929d3626934f74bdac12d9a"
+  version "3.1.1"
+  sha256 "052d3e53750d0df0b5455103daa181ebba956ca37b93b7cd38fbccd73ca90421"
 
   url "https://www.withdata.com/down/DBToMongo-#{version}.pkg"
   name "DBToMongo"
