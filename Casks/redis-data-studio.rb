@@ -1,6 +1,6 @@
 cask "redis-data-studio" do
-  version "2.1.1"
-  sha256 "2376d6020d2b8c5663b324bc52140c63c01d9614f766b0cf05c9399b642ebed2"
+  version "3.0.1"
+  sha256 "ba7ff5855237e521ec7f43b3c272863209938aca3c565d81d05226b5556c4012"
 
   url "https://www.withdata.com/down/RedisDataStudio-#{version}.pkg"
   name "RedisDataStudio"
