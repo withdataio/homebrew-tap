@@ -16,5 +16,7 @@ cask "redis-data-studio" do
 
   pkg "RedisDataStudio-#{version}.pkg"
 
-  uninstall pkgutil: "com.withdata.RedisDataStudio"
+  # The 2.x Lazarus build used com.withdata.RedisDataStudio; the 3.x Go build
+  # uses com.withdata.redisdatastudio. Remove both receipts.
+  uninstall pkgutil: ["com.withdata.RedisDataStudio", "com.withdata.redisdatastudio"]
 end
