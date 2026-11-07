@@ -1,6 +1,6 @@
 cask "data-file-splitter" do
-  version "2.6.2"
-  sha256 "0a3058bd436b2eee97d4373f55440e2ccedd554cb34e64fa15269ec58b033fe1"
+  version "2.6.3"
+  sha256 "fcddbf83384da47ca71cf704a77118629b8f7b691d04ee7a23f89b1600ed1002"
 
   url "https://www.withdata.com/down/DataFileSplitter-#{version}.pkg"
   name "DataFileSplitter"
