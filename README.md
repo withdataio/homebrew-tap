@@ -21,6 +21,7 @@ brew install --cask big-text-file-splitter
 | Cask | App |
 |---|---|
 | `batch-image-converter` | BatchImageConverter |
+| `big-data-file-viewer` | BigDataFileViewer |
 | `big-text-file-splitter` | BigTextFileSplitter |
 | `big-text-file-viewer` | BigTextFileViewer |
 | `data-file-converter` | DataFileConverter |
