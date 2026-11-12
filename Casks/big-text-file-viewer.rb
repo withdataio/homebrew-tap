@@ -1,6 +1,6 @@
 cask "big-text-file-viewer" do
-  version "3.2.1"
-  sha256 "def6eb0f61dc85c4be1b804c2ecfef92207d124b03b052e51fb03ea404d9c31c"
+  version "3.2.2"
+  sha256 "5a1d16ff4a37e011ef9b89c93b35667f28cbd4af5d85dedbdcbee9ce8043529e"
 
   url "https://www.withdata.com/down/BigTextFileViewer-#{version}.pkg"
   name "BigTextFileViewer"
