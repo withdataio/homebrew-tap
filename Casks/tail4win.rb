@@ -1,6 +1,6 @@
 cask "tail4win" do
-  version "6.1.2"
-  sha256 "3bd854e8b9d2b9c19f5f7cd3422cbafb2f11592b431db14021d07fd5575c415b"
+  version "6.1.3"
+  sha256 "d6ebfe86152b783958484541341e8f17d2237283aae0b185233f5bd5ec94bbeb"
 
   url "https://www.withdata.com/down/Tail4win-#{version}.pkg"
   name "Tail4win"
