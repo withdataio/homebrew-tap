@@ -1,6 +1,6 @@
 cask "big-data-file-viewer" do
-  version "1.0.1"
-  sha256 "73629e1324b7ac0aa374f7fb6d7792f30addf47d81ffe6643cc10ec3bd36ab47"
+  version "1.0.2"
+  sha256 "19da32fbf9699bea54aaa5f400809e55c9f64f408351048c2d83ab397748eab9"
 
   url "https://www.withdata.com/down/BigDataFileViewer-#{version}.pkg"
   name "BigDataFileViewer"
