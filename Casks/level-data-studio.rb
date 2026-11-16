@@ -1,6 +1,6 @@
 cask "level-data-studio" do
   version "1.7.1"
-  sha256 "a4c540a01131246fab6d7af5e2b74e7605f350ea8992d1db1b26f58968fe4f74"
+  sha256 "97322c50e5a61d303f28c96c7a606a73bbccd7cb142feb87f2690ac3d279813c"
 
   url "https://www.withdata.com/down/LevelDataStudio-#{version}.pkg"
   name "LevelDataStudio"
